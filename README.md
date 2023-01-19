@@ -15,13 +15,13 @@ More info available on my blog.
 - Git
 - Conda: I recommend [miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
-1. Clone this locally:
+### 1. Clone this locally:
 
 ```
 git clone git@github.com:andrewjjenkins/bioinformatics-algorithms-setup.git
 ```
 
-2. Setup 
+### 2. Setup 
 
 ```
 conda env create --name biopy -f environment.yaml
@@ -29,7 +29,7 @@ conda env create --name biopy -f environment.yaml
 
 This creates an environment named `biopy`. 
 
-3. Activate
+### 3. Activate
 
 ```
 conda activate biopy
@@ -37,7 +37,7 @@ conda activate biopy
 
 You must repeat this command every time you open a new shell.
 
-4. Start jupyter server
+### 4. Start jupyter server
 
 ```
 jupyter-lab --config=./jupyter_lab_config.py
@@ -64,7 +64,7 @@ Instead, you could set a permanent password or also allow connections from
 other computers in your network.  Edit `jupyter_lab_config.py` (or see the
 Jupyter documentation).
 
-5. Open Jupyter
+### 5. Open Jupyter
 
 Click the link provided, or copy-paste it to your browser (including all the
 `?token=e9720a0d...`).  Jupyter may have auto-opened a browser window for you
