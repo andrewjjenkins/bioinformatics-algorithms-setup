@@ -1,0 +1,19 @@
+name: biopy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab==3.5.0
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
+  - biopython
+  - ipympl
+  - pandas
+  - numpy
+  - numba >= 0.56.3
+  - graphviz
+  - python-graphviz
+  - flake8
+  - black
+  - scipy
+  - parse
