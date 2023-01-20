@@ -100,6 +100,26 @@ you get weird import errors, this is a good thing to check.
 
 ![Jupyter - Pick the right kernel](img/jupyter-choose-the-right-kernel.png)
 
+I have boilerplate that I copy to every problem.  I haven't found a way to
+automatically include this boilerplate when I make a new notebook, but it may
+exist.  Here's the boilerplate:
+
+```python
+%reload_ext autoreload
+%autoreload 1
+%aimport mycode
+
+import matplotlib.pyplot as plt
+import itertools
+import numpy as np
+import pandas as pd
+import math
+import graphviz
+import pdb
+
+pd.set_option('display.max_columns', 100)
+```
+
 ## Adding packages
 
 If you want to add or update the packages, edit `environment.yml` and then run:
