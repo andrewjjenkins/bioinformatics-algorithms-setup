@@ -3,6 +3,8 @@
 My setup for completing Stepik exercises for Pevzner/Compeau [Bioinformatics
 Algorithms](https://www.bioinformaticsalgorithms.org/)
 
+![Jupyter Notebook open](img/jupyter-notebook-example.png)
+
 This is based on Python and Jupyter Notebook.  You can use any programming
 language you want but Python is a very popular choice.
 
@@ -72,11 +74,9 @@ already.
 
 Navigate into the folder `1-finding-hidden-messages` and double-click on
 `problem-3-2.ipynb` and the notebook should open, you should see something like
-this:
+the image at the top of this page.
 
-![Jupyter Notebook open](img/jupyter-notebook-example.png)
-
-You can re-run the example by clicking `Kernel -> Restart Kernal and Run All
+You can re-run the example by clicking `Kernel -> Restart Kernel and Run All
 Cells`.  If this works, your environment is set up well.
 
 ## Development
@@ -108,3 +108,9 @@ If you want to add or update the packages, edit `environment.yml` and then run:
 conda env update -f environment.yml
 ```
 
+## Github renders Jupyter Notebooks
+
+Github will render jupyter notebooks, providing a good read-only view if you
+want to commit your work to your own repo as you go.
+
+For example, go look at [problem-3-2.ipynb](1-finding-hidden-messages/problem-3-2.ipynb)
