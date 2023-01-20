@@ -70,6 +70,14 @@ Click the link provided, or copy-paste it to your browser (including all the
 `?token=e9720a0d...`).  Jupyter may have auto-opened a browser window for you
 already.
 
+Navigate into the folder `1-finding-hidden-messages` and double-click on
+`problem-3-2.ipynb` and the notebook should open, you should see something like
+this:
+
+![Jupyter Notebook open](img/jupyter-notebook-example.png)
+
+You can re-run the example by clicking `Kernel -> Restart Kernal and Run All
+Cells`.  If this works, your environment is set up well.
 
 ## Development
 
@@ -83,5 +91,20 @@ HammingDistance`) or individual test (`python mycode_test.py
 HammingDistance.TestSimpleDistance`).  The example input/outputs in Stepik are
 good candidates for unit tests.
 
+## Making New Notebooks
 
+When you make a new notebook, make sure you choose to use the right Jupyter
+kernel - you want the Python kernel associated with the conda env you set up.
+This usually happens by default (since you started jupyter in that env), but if
+you get weird import errors, this is a good thing to check.
+
+![Jupyter - Pick the right kernel](img/jupyter-choose-the-right-kernel.png)
+
+## Adding packages
+
+If you want to add or update the packages, edit `environment.yml` and then run:
+
+```
+conda env update -f environment.yml
+```
 
